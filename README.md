@@ -1,2 +1,2 @@
 # WV-AI-HUB-INDEX
-Visualizing AI Innovation in the mountain state
+Visualizing AI Innovation in the Mountain State
