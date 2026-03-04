@@ -313,7 +313,7 @@ a.story-source::before {
   margin-right: 4px;
 }
 
-/* ─── FUTURE HUB SECTIONS ─── */
+/* ─── EMERGING HUB SECTIONS ─── */
 .future-hubs-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -423,6 +423,36 @@ a.story-source::before {
   0%, 100% { box-shadow: 0 0 0 0 rgba(0,212,255,0); }
   50%      { box-shadow: 0 0 6px 2px rgba(0,212,255,0.15); }
 }
+.future-hub-stories {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 4px;
+}
+.future-hub-story {
+  font-size: 0.78rem;
+  line-height: 1.55;
+  color: var(--text-primary);
+  padding-left: 14px;
+  position: relative;
+}
+.future-hub-story::before {
+  content: '';
+  position: absolute;
+  left: 0; top: 8px;
+  width: 5px; height: 5px;
+  border-radius: 50%;
+  background: var(--blue-electric);
+  box-shadow: 0 0 6px var(--blue-glow);
+}
+.future-hub-story strong {
+  color: var(--blue-300);
+  font-weight: 600;
+}
+.future-hub-story .story-source {
+  font-size: 0.55rem;
+  margin-top: 3px;
+}
 .future-hubs-header {
   text-align: center;
   padding: 64px 48px 32px;
@@ -491,7 +521,7 @@ a.story-source::before {
   <div class="logo">WV <em>AI</em> Index</div>
   <div class="legend-items">
     <div class="legend-item"><div class="legend-dot filled"></div> Major Hub</div>
-    <div class="legend-item"><div class="legend-dot sm"></div> Township</div>
+    <div class="legend-item"><div class="legend-dot sm"></div> Emerging Hub</div>
     <div class="legend-item"><div class="legend-line"></div> Network Link</div>
   </div>
 </div>
@@ -506,7 +536,7 @@ a.story-source::before {
       <h2 class="city-name">Morgantown</h2>
       <div class="story-count">
         <div class="count-bar"></div>
-        8 innovation stories
+        10 innovation stories
       </div>
       <div class="stories-list">
         <div class="story-item"><div class="story-bullet"></div><div class="story-text"><strong>WVU launches M.S. in Artificial Intelligence</strong> — A fully online graduate program from the Statler College covering machine learning, cybersecurity, robotics, and energy systems. Enrollment opened Spring 2026.<a class="story-source" href="https://online.wvu.edu/programs/masters-degrees/artificial-intelligence-ms" target="_blank">Source: WVU Online →</a></div></div>
@@ -514,6 +544,8 @@ a.story-source::before {
         <div class="story-item"><div class="story-bullet"></div><div class="story-text"><strong>WVU AI Symposium 2025</strong> — Researchers presented work spanning dermatological AI analysis, anti-cancer peptide design, autonomous manufacturing algorithms, and broadband equity mapping for rural Appalachia.<a class="story-source" href="https://hsc.wvu.edu/research-and-graduate-education/wvu-ai-symposium/" target="_blank">Source: WVU Health Sciences →</a></div></div>
         <div class="story-item"><div class="story-bullet"></div><div class="story-text"><strong>New AI & Smart Systems undergraduate tracks</strong> — WVU BOG approved concentrations in AI/Computational Data Science and Cyber-Physical Systems, plus interdisciplinary programs pairing CS with mechanical engineering.<a class="story-source" href="https://media.statler.wvu.edu/news/2025/08/01/wvu-bog-approves-new-program-offerings-in-artificial-intelligence-smart-systems" target="_blank">Source: Statler College, Aug 2025 →</a></div></div>
         <div class="story-item"><div class="story-bullet"></div><div class="story-text"><strong>WVU's F1Tenth autonomous racing team</strong> placed second nationally at the IEEE competition, building AI-powered self-driving scale cars as an experiential learning initiative.<a class="story-source" href="https://media.statler.wvu.edu/news/2025/08/01/wvu-bog-approves-new-program-offerings-in-artificial-intelligence-smart-systems" target="_blank">Source: Statler College Media Hub →</a></div></div>
+        <div class="story-item"><div class="story-bullet"></div><div class="story-text"><strong>WVU launches Strategic Compass seed innovation fund</strong> — President Benson unveils seed funding for innovative projects across education, discovery, health, and service, accelerating the university's vision to elevate impact statewide and beyond.<a class="story-source" href="https://wvutoday.wvu.edu/stories/2026/02/20/wvu-to-seed-innovation-in-support-of-strategic-compass" target="_blank">Source: WVU Today, Feb 2026 →</a></div></div>
+        <div class="story-item"><div class="story-bullet"></div><div class="story-text"><strong>1Mby1M Virtual Accelerator & AI Mentor launches for WV</strong> — West Virginia entrepreneurs gain access to an equity-free accelerator with AI-guided mentorship, global case studies, and strategic frameworks for bootstrapping and scaling tech startups.<a class="story-source" href="https://www.sramanamitra.com/2026/02/11/the-conundrum-in-west-virginia-startup-accelerator-ecosystem/" target="_blank">Source: Sramana Mitra, Feb 2026 →</a></div></div>
       </div>
     </div>
   </div>
@@ -527,7 +559,7 @@ a.story-source::before {
       <h2 class="city-name">Charleston</h2>
       <div class="story-count">
         <div class="count-bar"></div>
-        7 innovation stories
+        9 innovation stories
       </div>
       <div class="stories-list">
         <div class="story-item"><div class="story-bullet"></div><div class="story-text"><strong>State AI Task Force established</strong> — Created under HB 5690, the task force is charged with assessing AI's impact on employment, government services, and economic development statewide, with recommendations delivered July 2025.<a class="story-source" href="https://technology.wv.gov/policy-governance/artificial-intelligence" target="_blank">Source: WV Office of Technology →</a></div></div>
@@ -535,6 +567,8 @@ a.story-source::before {
         <div class="story-item"><div class="story-bullet"></div><div class="story-text"><strong>Lap1Labs AI startup</strong> — Charleston-based AI company featured on the CDC Tech Life Podcast, part of a growing ecosystem of 1,100+ tech companies in the metro area.<a class="story-source" href="https://www.charlestondigital.com/" target="_blank">Source: Charleston Digital Corridor →</a></div></div>
         <div class="story-item"><div class="story-bullet"></div><div class="story-text"><strong>WVIAIS — AI consulting for small business</strong> — West Virginia Integrated AI Solutions focuses on making AI affordable for small businesses across the state, specializing in data entry and administrative automation.<a class="story-source" href="https://wviais.com/" target="_blank">Source: WVIAIS →</a></div></div>
         <div class="story-item"><div class="story-bullet"></div><div class="story-text"><strong>WV Digital Government Summit</strong> — State CIOs, AWS, IBM AI strategists, and leaders from Beckley, Morgantown, Wheeling, and Marshall University convened to plan government digital transformation.<a class="story-source" href="https://events.govtech.com/West-Virginia-Digital-Government-Summit" target="_blank">Source: GovTech Events →</a></div></div>
+        <div class="story-item"><div class="story-bullet"></div><div class="story-text"><strong>WV named among 16 states for OpenAI's Stargate project</strong> — West Virginia is on OpenAI's shortlist for its $500 billion multi-campus AI infrastructure initiative, with the state's energy resources, data center legislation, and proximity to Virginia's Data Center Alley cited as advantages.<a class="story-source" href="https://fortune.com/2025/02/06/openai-stargate-ai-data-centers-locations-search/" target="_blank">Source: Fortune, Feb 2025 →</a></div></div>
+        <div class="story-item"><div class="story-bullet"></div><div class="story-text"><strong>TechConnect WV — 20+ years of tech innovation</strong> — Based in South Charleston, TechConnect WV continues to champion tech entrepreneurship statewide, enabling collaboration, research, and economic development from the earliest stages.<a class="story-source" href="https://techconnectwv.org/" target="_blank">Source: TechConnect WV →</a></div></div>
       </div>
     </div>
     <div class="city-map-panel"><canvas class="zoomCanvas" data-city="charleston"></canvas></div>
@@ -550,13 +584,14 @@ a.story-source::before {
       <h2 class="city-name">Berkeley County</h2>
       <div class="story-count">
         <div class="count-bar"></div>
-        4 innovation stories
+        5 innovation stories
       </div>
       <div class="stories-list">
         <div class="story-item"><div class="story-bullet"></div><div class="story-text"><strong>$4 billion Penzance data center announced</strong> — Governor Morrisey unveiled WV's first High Impact Intelligence Center: a 548-acre, 1.9M sq ft campus in Falling Waters delivering 600MW of AI and cloud computing capacity. No state funding used.<a class="story-source" href="https://governor.wv.gov/news/press-releases/2026/pages/gov-morrisey-announces-states-first-high-impact-intelligence-center.aspx" target="_blank">Source: Governor's Office, Feb 2026 →</a></div></div>
         <div class="story-item"><div class="story-bullet"></div><div class="story-text"><strong>Monarch Compute Campus by Fidelis</strong> — A 2,250-acre next-generation AI and high-performance computing campus with on-site power generation via the state's microgrid designation, designed for long-term scalable growth.<a class="story-source" href="https://fidelisinfrastructure.com/" target="_blank">Source: Fidelis Infrastructure →</a></div></div>
         <div class="story-item"><div class="story-bullet"></div><div class="story-text"><strong>Power Generation & Consumption Act</strong> — HB 2014 streamlined permitting for data centers and expanded microgrid capabilities, positioning WV to compete with Northern Virginia's Data Center Alley.<a class="story-source" href="https://www.wvlegislature.gov/Bill_Status/bills_history.cfm?input=2014&year=2025&sessiontype=RS&btype=bill" target="_blank">Source: WV Legislature, 2025 →</a></div></div>
         <div class="story-item"><div class="story-bullet"></div><div class="story-text"><strong>Microgrid revenue reinvestment</strong> — Data center tax revenue flows 50% to income tax reduction, 30% to host county, 10% per-capita statewide, and 5% each to grid stabilization and economic grants.<a class="story-source" href="https://governor.wv.gov/news/press-releases/2025/pages/data-center-development.aspx" target="_blank">Source: Governor's Office →</a></div></div>
+        <div class="story-item"><div class="story-bullet"></div><div class="story-text"><strong>Fidelis Monarch Campus advances to construction</strong> — American Intelligence & Power Corporation formally moves forward with an 8 GW AI Microgrid Platform at Mason County; Caterpillar contracted for 2 GW of natural gas generators with delivery starting 2026.<a class="story-source" href="https://wvmetronews.com/2026/01/28/fidelis-ready-to-move-forward-with-data-center-power-plant-in-mason-county/" target="_blank">Source: WV MetroNews, Jan 2026 →</a></div></div>
       </div>
     </div>
   </div>
@@ -570,13 +605,16 @@ a.story-source::before {
       <h2 class="city-name">Huntington</h2>
       <div class="story-count">
         <div class="count-bar"></div>
-        4 innovation stories
+        7 innovation stories
       </div>
       <div class="stories-list">
         <div class="story-item"><div class="story-bullet"></div><div class="story-text"><strong>Marshall University gBETA accelerator</strong> — Five AI and tech startups selected for the inaugural cohort, including Stitch AI (enterprise workflow orchestration) and FarmerzTool (agricultural tech), backed by Huntington National Bank.<a class="story-source" href="https://www.marshall.edu/icenter/gbeta-accelerator/" target="_blank">Source: Marshall iCenter →</a></div></div>
         <div class="story-item"><div class="story-bullet"></div><div class="story-text"><strong>Stitch AI launches from Huntington</strong> — An enterprise productivity platform that coordinates fragmented AI tools, surfaces context, and enables smarter real-time decisions for SMBs. Targeting first pilot Q3 2025.<a class="story-source" href="https://www.gener8tor.com/gbeta/marshall-university" target="_blank">Source: gener8tor →</a></div></div>
         <div class="story-item"><div class="story-bullet"></div><div class="story-text"><strong>Alpha Innovations AI-driven IT services</strong> — Operating an 80,000 sq ft data center serving businesses, government, and education across WV with AI-powered cybersecurity and cloud infrastructure.<a class="story-source" href="https://alphainnovations.com/" target="_blank">Source: Alpha Innovations →</a></div></div>
         <div class="story-item"><div class="story-bullet"></div><div class="story-text"><strong>Generation WV AI Workforce panel</strong> — Josh Spence, CIO of Alpha Innovations and Chair of the WV AI Task Force, emphasized broadband as foundational: "AI is the priority. Broadband is a must-have."<a class="story-source" href="https://generationwv.org/" target="_blank">Source: Generation West Virginia →</a></div></div>
+        <div class="story-item"><div class="story-bullet"></div><div class="story-text"><strong>IDEA District & $45M Institute for Cyber Security</strong> — Marshall's Innovation District takes shape west of campus with a state-funded, four-story cybersecurity facility under construction. The 80,000 sq ft Institute is expected to open by summer 2027.<a class="story-source" href="https://www.marshall.edu/news/2025/12/marshall-university-provides-update-on-transformative-idea-district-development/" target="_blank">Source: Marshall University, Dec 2025 →</a></div></div>
+        <div class="story-item"><div class="story-bullet"></div><div class="story-text"><strong>Quality Insights gifts $1.2M to iCenter</strong> — Funding enables a full-time gener8tor program manager, two gBETA accelerator cohorts per year for three years, and a new gALPHA ideation cohort for early-stage startup testing.<a class="story-source" href="https://www.marshall.edu/news/2026/02/quality-insights-gift/" target="_blank">Source: Marshall University, Feb 2026 →</a></div></div>
+        <div class="story-item"><div class="story-bullet"></div><div class="story-text"><strong>Marshall–Intuit strategic partnership</strong> — Collaboration creates a hiring pipeline for tech, cybersecurity, and AI jobs while establishing a prosperity hub in the Innovation District focused on financial innovation and hands-on AI skills training.<a class="story-source" href="https://www.marshall.edu/news/2025/03/marshall-university-and-intuit-forge-strategic-partnership-to-enhance-education-and-economic-development-in-west-virginia/" target="_blank">Source: Marshall University, Mar 2025 →</a></div></div>
       </div>
     </div>
     <div class="city-map-panel"><canvas class="zoomCanvas" data-city="huntington"></canvas></div>
@@ -592,81 +630,76 @@ a.story-source::before {
       <h2 class="city-name">Princeton</h2>
       <div class="story-count">
         <div class="count-bar"></div>
-        3 innovation stories
+        4 innovation stories
       </div>
       <div class="stories-list">
         <div class="story-item"><div class="story-bullet"></div><div class="story-text"><strong>WV Dept. of Education integrates AI in classrooms</strong> — Mercer County Schools leading adoption with guidance documents for responsible AI use, training educators to prepare students for an AI-driven economy.<a class="story-source" href="https://www.wvva.com/2026/03/01/wv-educators-embrace-ai-classroom/" target="_blank">Source: WVVA News, Mar 2026 →</a></div></div>
         <div class="story-item"><div class="story-bullet"></div><div class="story-text"><strong>Appalachian data center corridor emerging</strong> — Southern WV positioned in the broader Appalachian rush for AI computing infrastructure, leveraging proximity to energy resources and fiber networks.<a class="story-source" href="https://dailyyonder.com/data-centers-and-rural-appalachia/" target="_blank">Source: Daily Yonder →</a></div></div>
         <div class="story-item"><div class="story-bullet"></div><div class="story-text"><strong>AI workforce readiness initiatives</strong> — Regional programs emphasize that AI tools are already transforming jobs from fast food to education, with local teachers championing hands-on technology literacy.<a class="story-source" href="https://www.wvva.com/2026/02/ai-workforce-readiness-mercer-county/" target="_blank">Source: WVVA / Mercer County Schools →</a></div></div>
+        <div class="story-item"><div class="story-bullet"></div><div class="story-text"><strong>WVDE publishes statewide AI Guidance for Schools</strong> — Comprehensive framework for PK-12 supporting responsible AI use by superintendents, educators, and support staff, building on Mercer County's early adoption leadership.<a class="story-source" href="https://wvde.us/ai/" target="_blank">Source: WV Dept. of Education →</a></div></div>
       </div>
     </div>
   </div>
 </section>
 
-<!-- FUTURE HUBS -->
+<!-- EMERGING HUBS -->
 <div class="future-hubs-header">
-  <h2>Future Hubs</h2>
-  <p>Top 10 WV cities by population — innovation data incoming</p>
+  <h2>Emerging Hubs</h2>
+  <p>Top 10 WV cities by population — innovation stories now tracking</p>
 </div>
 <div class="future-hubs-grid">
   <div class="future-hub-card" data-delay="0">
     <div class="future-hub-tag">Hub 06 — Mid-Ohio Valley</div>
     <h3 class="future-hub-name">Parkersburg</h3>
     <div class="future-hub-pop">Pop. 29,025 · #4 in WV</div>
-    <div class="loading-bar-wrap">
-      <div class="future-hub-dot"></div>
-      <div class="loading-bar-track"><div class="loading-bar-fill"></div></div>
-      <div class="loading-bar-text">Loading innovation</div>
+    <div class="future-hub-stories">
+      <div class="future-hub-story"><strong>WVU-P Innovation & Technology Center opens</strong> — $35M investment transforms the former Ohio Valley University campus into a tech education hub with CS, cybersecurity, and network admin programs. 159 students enrolled at launch in August 2025.<a class="story-source" href="https://www.newsandsentinel.com/zweekendnewsletter/2025/08/classes-begin-at-west-virginia-university-at-parkersburgs-innovation-and-technology-center-in-vienna-2/" target="_blank">Source: News & Sentinel, Aug 2025 →</a></div>
+      <div class="future-hub-story"><strong>Innovation Lab & additive manufacturing</strong> — New facility features 3D printers, metal printers, laser systems, and engineering technologies equipment; Vienna renamed the street "Innovation Drive" to reflect the campus transformation.<a class="story-source" href="https://www.wtap.com/2025/04/23/wced-wvup-discuss-new-innovation-technology-center/" target="_blank">Source: WTAP →</a></div>
     </div>
   </div>
   <div class="future-hub-card" data-delay="100">
     <div class="future-hub-tag">Hub 07 — Northern Panhandle</div>
     <h3 class="future-hub-name">Wheeling</h3>
     <div class="future-hub-pop">Pop. 26,208 · #5 in WV</div>
-    <div class="loading-bar-wrap">
-      <div class="future-hub-dot"></div>
-      <div class="loading-bar-track"><div class="loading-bar-fill" style="animation-delay:0.3s"></div></div>
-      <div class="loading-bar-text" style="animation-delay:0.3s">Loading innovation</div>
+    <div class="future-hub-stories">
+      <div class="future-hub-story"><strong>Emerging IT-enabled services hub</strong> — Niche IT and tech startups emerging in Wheeling, with founders gaining access to the 1Mby1M equity-free virtual accelerator and AI Mentor for market validation and sustainable growth.<a class="story-source" href="https://www.sramanamitra.com/2026/02/11/the-conundrum-in-west-virginia-startup-accelerator-ecosystem/" target="_blank">Source: Sramana Mitra, Feb 2026 →</a></div>
+      <div class="future-hub-story"><strong>Digital Government Summit participation</strong> — Wheeling leaders joined state CIOs, AWS, and IBM AI strategists at the statewide summit to plan digital transformation, AI implementation, and cybersecurity strategy.<a class="story-source" href="https://events.govtech.com/West-Virginia-Digital-Government-Summit" target="_blank">Source: GovTech Events →</a></div>
     </div>
   </div>
   <div class="future-hub-card" data-delay="200">
     <div class="future-hub-tag">Hub 08 — Upper Panhandle</div>
     <h3 class="future-hub-name">Weirton</h3>
     <div class="future-hub-pop">Pop. 18,317 · #7 in WV</div>
-    <div class="loading-bar-wrap">
-      <div class="future-hub-dot"></div>
-      <div class="loading-bar-track"><div class="loading-bar-fill" style="animation-delay:0.6s"></div></div>
-      <div class="loading-bar-text" style="animation-delay:0.6s">Loading innovation</div>
+    <div class="future-hub-stories">
+      <div class="future-hub-story"><strong>Form Energy lands $1B Google deal</strong> — Weirton's iron-air battery factory will produce the world's largest battery system (300MW / 30GWh, 100-hour duration) to power a Google data center in Minnesota. First deployment serving a data center.<a class="story-source" href="https://techstartups.com/2026/02/26/form-energy-lands-1b-google-deal-for-100-hour-iron-air-battery-eyes-ipo/" target="_blank">Source: Tech Startups, Feb 2026 →</a></div>
+      <div class="future-hub-story"><strong>Form Factory 1 in commercial production</strong> — 400+ employees at the former Weirton Steel site manufacturing iron-air batteries. Plans to expand to 750+ workers, 1M+ sq ft, and 500MW annual capacity by 2028. IPO expected near-term.<a class="story-source" href="https://www.wtrf.com/top-stories/form-energy-in-weirton-to-build-batteries-for-largest-energy-storage-project-announced/" target="_blank">Source: WTRF →</a></div>
     </div>
   </div>
   <div class="future-hub-card" data-delay="300">
-    <div class="future-hub-tag">Hub 09 — North Central</div>
+    <div class="future-hub-tag">Hub 09 — Marion County</div>
     <h3 class="future-hub-name">Fairmont</h3>
     <div class="future-hub-pop">Pop. 18,155 · #8 in WV</div>
-    <div class="loading-bar-wrap">
-      <div class="future-hub-dot"></div>
-      <div class="loading-bar-track"><div class="loading-bar-fill" style="animation-delay:0.9s"></div></div>
-      <div class="loading-bar-text" style="animation-delay:0.9s">Loading innovation</div>
+    <div class="future-hub-stories">
+      <div class="future-hub-story"><strong>I-79 Technology Park & NOAA supercomputer</strong> — The only location on Earth with three NOAA ground stations and a supercomputing center. Foundation plans to apply AI and supercomputing to expand the $7B commercial weather data market.<a class="story-source" href="https://wvexecutive.com/the-future-is-data/" target="_blank">Source: WV Executive Magazine →</a></div>
+      <div class="future-hub-story"><strong>NASA Katherine Johnson IV&V Facility</strong> — 250 employees in Fairmont supporting Artemis, Gateway, Orion, and Dragonfly missions with independent software verification for space exploration programs.<a class="story-source" href="https://www.nasa.gov/katherine-johnson-ivv-facility/" target="_blank">Source: NASA →</a></div>
     </div>
   </div>
   <div class="future-hub-card" data-delay="400">
     <div class="future-hub-tag">Hub 10 — Southern Highlands</div>
     <h3 class="future-hub-name">Beckley</h3>
     <div class="future-hub-pop">Pop. 16,576 · #9 in WV</div>
-    <div class="loading-bar-wrap">
-      <div class="future-hub-dot"></div>
-      <div class="loading-bar-track"><div class="loading-bar-fill" style="animation-delay:1.2s"></div></div>
-      <div class="loading-bar-text" style="animation-delay:1.2s">Loading innovation</div>
+    <div class="future-hub-stories">
+      <div class="future-hub-story"><strong>WVU Tech hosts Governor's Computer Science Institute</strong> — Free, week-long summer program teaching AI, coding, and drone programming to the top 50 WV high schoolers. Three-year commitment starting July 2026 on the Beckley campus.<a class="story-source" href="https://www.wvutech.edu/news/2025/10/29/wvu-tech-to-host-governor-s-computer-science-institute-for-next-three-years" target="_blank">Source: WVU Tech, Oct 2025 →</a></div>
+      <div class="future-hub-story"><strong>WVU Tech President on national AI Leadership Council</strong> — President T. Ramon Stuart appointed to the RNL AI Leadership Council, shaping AI strategy in higher education and positioning WVU Tech as a pipeline for AI professionals.<a class="story-source" href="https://www.wvutech.edu/news/fall-2024/09/06/wvu-tech-president-t-ramon-stuart-ph-d-appointed-to-rnl-s-ai-leadership-council" target="_blank">Source: WVU Tech →</a></div>
     </div>
   </div>
   <div class="future-hub-card" data-delay="500">
     <div class="future-hub-tag">Hub 11 — Harrison County</div>
     <h3 class="future-hub-name">Clarksburg</h3>
     <div class="future-hub-pop">Pop. 15,489 · #10 in WV</div>
-    <div class="loading-bar-wrap">
-      <div class="future-hub-dot"></div>
-      <div class="loading-bar-track"><div class="loading-bar-fill" style="animation-delay:1.5s"></div></div>
-      <div class="loading-bar-text" style="animation-delay:1.5s">Loading innovation</div>
+    <div class="future-hub-stories">
+      <div class="future-hub-story"><strong>FBI CJIS Division — biometric AI advancement</strong> — The 990-acre campus employs 3,000+ staff managing national criminal justice systems and advancing multimodal biometric identification including fingerprint, facial, iris, and palm print AI algorithms.<a class="story-source" href="https://www.fbi.gov/services/cjis" target="_blank">Source: FBI CJIS →</a></div>
+      <div class="future-hub-story"><strong>TekSynap acquires JBA, strengthening FBI tech support</strong> — Systems integrator expands its IT, cloud, cybersecurity, and infrastructure workforce supporting CJIS operations in Clarksburg and nationwide FBI missions.<a class="story-source" href="https://www.morningstar.com/news/business-wire/20251118048064/teksynap-corporation-acquires-jba-inc-strengthening-mission-support-for-the-fbi" target="_blank">Source: Morningstar / Business Wire, Nov 2025 →</a></div>
     </div>
   </div>
 </div>
@@ -1388,7 +1421,7 @@ function initSections() {
 
   document.querySelectorAll('.city-section').forEach(s => observer.observe(s));
 
-  // Future hub card reveals (staggered)
+  // Emerging hub card reveals (staggered)
   const futureObserver = new IntersectionObserver((entries)=>{
     entries.forEach(e=>{
       if(e.isIntersecting){
